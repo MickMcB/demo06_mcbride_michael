@@ -1,1 +1,130 @@
+/*
+* --------------------------------------------
+* Custom styles to override the default Bootstrap ones
+* --------------------------------------------
+*/
 
+/* New Color Palette:
+* Lightest (Main Background): #dac9eb
+* Dark Purple (Primary): #6545a4
+* Light Purple (Secondary): #bf62ea
+* Light Blue (Accent): #6383ea
+*/
+
+.bg-info {
+    background-color: #bf62ea !important;
+    /* Light purple for secondary backgrounds */
+}
+
+.navbar-light .navbar-brand,
+.navbar-light .navbar-nav .nav-link {
+    color: #6545a4;
+    /* Dark purple for brand name & nav links for visibility */
+}
+
+.btn-info {
+    color: #dac9eb;
+    /* Lightest shade for text on info button for contrast */
+    background-color: #bf62ea;
+    /* Light purple for button background */
+    border-color: #6545a4;
+    /* Dark purple for button border */
+}
+
+.btn-primary {
+    color: #dac9eb;
+    /* Lightest shade for text */
+    font-size: 150%;
+    background-color: #6545a4;
+    /* Dark purple for primary button background */
+    border-color: #6383ea;
+    /* light-blue for border to use as accent */
+    border-width: thick;
+}
+
+body {
+    background-color: #dac9eb;
+    /* Lightest shade for body background to follow the 60% rule */
+}
+
+.navbar-brand {
+    font-family: 'Sixtyfour';
+    /*change the font name for what you have*/
+    font-size: 2.25rem;
+}
+
+/* Style for radio button labels when not selected */
+.btn-outline-primary {
+    color: #6545a4;
+    /* Dark purple text color for contrast */
+    border-color: #bf62ea;
+    /* Light purple border color */
+}
+
+/* Style for radio button labels on hover or focus */
+.btn-outline-primary:hover,
+.btn-outline-primary:focus {
+    color: #dac9eb;
+    /* Lightest color for text */
+    background-color: #bf62ea;
+    /* Light purple background */
+    border-color: #6545a4;
+    /* Dark purple border for emphasis */
+}
+
+/* Style for the active (checked) radio button label */
+.btn-check:checked+.btn-outline-primary,
+.btn-check:active+.btn-outline-primary {
+    color: #dac9eb;
+    /* Lightest color for text */
+    background-color: #6545a4;
+    /* Dark purple background for primary action */
+    border-color: #6383ea;
+    /* light-blue border to use as accent */
+}
+
+/* Custom styles for dropdown to match the new color palette */
+
+/* Style for the dropdown button */
+.btn-secondary {
+    color: #dac9eb;
+    /* Lightest color for text */
+    background-color: #6545a4;
+    /* Dark purple for the button background */
+    border-color: #bf62ea;
+    /* Light purple for the button border */
+}
+
+/* Change dropdown button hover/focus styles */
+.btn-secondary:hover,
+.btn-secondary:focus {
+    color: #dac9eb;
+    /* Lightest color remains for text */
+    background-color: #bf62ea;
+    /* Light purple for background on hover/focus */
+    border-color: #6545a4;
+    /* Dark purple for border for emphasis */
+}
+
+/* Style for the dropdown menu */
+.dropdown-menu {
+    background-color: #dac9eb;
+    /* Lightest color for dropdown background */
+    border-color: #bf62ea;
+    /* Light purple for border color */
+}
+
+/* Style for dropdown items */
+.dropdown-item {
+    color: #6545a4;
+    /* Dark purple for text color */
+}
+
+/* Style for dropdown item hover */
+.dropdown-item:hover,
+.dropdown-item:focus {
+    color: #dac9eb;
+    /* Lightest color for text on hover/focus */
+    background-color: #bf62ea;
+    /* Light purple for background on hover/focus */
+}
